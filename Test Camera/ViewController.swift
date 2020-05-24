@@ -8,13 +8,27 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate  {
 
+    @IBOutlet weak var ImageDisplay: UIImageView!
+    @IBOutlet weak var CameraButton: UIButton!
+    @IBOutlet weak var LibraryButton: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning();
+        print("Out Of Memory");
+    }
+    
+    // Mark: Action:
+    @IBAction func PhotoLibraryAction(sende: UIButton) {
+        let picker = UIImagePickerController();
+        picker.delegate = self;
+        picker.sourceType
+    }
 }
-
