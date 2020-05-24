@@ -8,12 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate  {
+class ViewController: UIViewController,  UINavigationControllerDelegate, UIImagePickerControllerDelegate  {
 
     @IBOutlet weak var ImageDisplay: UIImageView!
-    @IBOutlet weak var CameraButton: UIButton!
-    @IBOutlet weak var LibraryButton: UIButton!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,14 +18,23 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
     }
     
     override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning();
-        print("Out Of Memory");
+        super.didReceiveMemoryWarning()
+        print("Out Of Memory")
     }
     
-    // Mark: Action:
-    @IBAction func PhotoLibraryAction(sende: UIButton) {
-        let picker = UIImagePickerController();
-        picker.delegate = self;
-        picker.sourceType
+    // Mark: Action
+    @IBAction func CameraButton(_ sender: UIButton) {
+        let picker = UIImagePickerController()
+        picker.delegate = self
+        picker.sourceType = .camera
+        present(picker, animated: true, completion: nil)
+        print("Camera Intergrated ===> ")
     }
+    
+
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        ImageDisplay.image = info[UIImagePickerController.InfoKey.originalImage] as? UIImage;
+        dismiss(animated: true, completion: nil)
+    }
+    
 }

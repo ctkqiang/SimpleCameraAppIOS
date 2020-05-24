@@ -444,7 +444,7 @@
 				FA2CD1AC247A900700C50B0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		FA2CD1AD247A900700C50B0A /* Build configuration list for PBXNativeTarget "Test Camera" */ = {
 			isa = XCConfigurationList;
@@ -453,7 +453,7 @@
 				FA2CD1AF247A900700C50B0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		FA2CD1B0247A900700C50B0A /* Build configuration list for PBXNativeTarget "Test CameraTests" */ = {
 			isa = XCConfigurationList;
@@ -462,7 +462,7 @@
 				FA2CD1B2247A900700C50B0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
