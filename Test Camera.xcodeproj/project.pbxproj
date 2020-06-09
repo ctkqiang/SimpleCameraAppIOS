@@ -26,7 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FA2CD190247A8FF600C50B0A /* Test Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test Camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2CD190247A8FF600C50B0A /* UICameraKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICameraKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2CD193247A8FF600C50B0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA2CD195247A8FF600C50B0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FA2CD198247A8FF600C50B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 		FA2CD191247A8FF600C50B0A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA2CD190247A8FF600C50B0A /* Test Camera.app */,
+				FA2CD190247A8FF600C50B0A /* UICameraKit.app */,
 				FA2CD1A4247A900700C50B0A /* Test CameraTests.xctest */,
 			);
 			name = Products;
@@ -113,7 +113,7 @@
 			);
 			name = "Test Camera";
 			productName = "Test Camera";
-			productReference = FA2CD190247A8FF600C50B0A /* Test Camera.app */;
+			productReference = FA2CD190247A8FF600C50B0A /* UICameraKit.app */;
 			productType = "com.apple.product-type.application";
 		};
 		FA2CD1A3247A900700C50B0A /* Test CameraTests */ = {
@@ -368,7 +368,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.johnmelodyme.foodTracker.Test-Camera";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = UICameraKit;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -386,7 +386,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.johnmelodyme.foodTracker.Test-Camera";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = UICameraKit;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -444,7 +444,7 @@
 				FA2CD1AC247A900700C50B0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		FA2CD1AD247A900700C50B0A /* Build configuration list for PBXNativeTarget "Test Camera" */ = {
 			isa = XCConfigurationList;
@@ -453,7 +453,7 @@
 				FA2CD1AF247A900700C50B0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		FA2CD1B0247A900700C50B0A /* Build configuration list for PBXNativeTarget "Test CameraTests" */ = {
 			isa = XCConfigurationList;
@@ -462,7 +462,7 @@
 				FA2CD1B2247A900700C50B0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
